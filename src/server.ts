@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
-import * as rateLimit from 'express-rate-limit';
+const rateLimit = require("express-rate-limit");
 import * as express from 'express';
 import * as helmet from 'helmet';
 
