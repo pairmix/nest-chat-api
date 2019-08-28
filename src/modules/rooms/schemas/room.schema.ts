@@ -19,7 +19,7 @@ const room = new Schema({
 room.pre('save', function(next) {
   const currentDate = new Date();
 
-  this.updated_at = currentDate;
+  // this.updated_at = currentDate;
   next();
 });
 
